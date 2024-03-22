@@ -1,11 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'models/course'
-require_relative 'models/room'
-require_relative 'models/student'
-require_relative 'models/subject'
-require_relative 'models/teacher'
-
+require_relative 'controllers/helper'
 require_relative 'controllers/course_controller'
 require_relative 'controllers/room_controller'
 
